@@ -91,6 +91,7 @@ main {
 .info {
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }
 
 .not-located {
@@ -105,6 +106,7 @@ main {
 .table {
   display: none;
   padding-left: 50px;
+  font-size: 30px;
 }
 
 #map {
@@ -123,6 +125,10 @@ main {
 
   h3 {
     font-size: 35px;
+  }
+
+  table {
+    font-size: 25px;
   }
 
   .not-located {
@@ -144,6 +150,10 @@ main {
     font-size: 30px;
   }
 
+  table {
+    font-size: 20px;
+  }
+
   .not-located {
     width: 695px;
   }
@@ -161,6 +171,10 @@ main {
 
   h3 {
     font-size: 25px;
+  }
+
+  table {
+    font-size: 18px;
   }
 
   .not-located {
@@ -182,6 +196,11 @@ main {
     font-size: 25px;
   }
 
+  .table {
+    font-size: 18px;
+    padding-left: 0px;
+  }
+
   main {
     flex-direction: column;
     align-items: center;
@@ -193,10 +212,6 @@ main {
   }
   .not-located {
     width: 810px;
-    padding-left: 0px;
-  }
-
-  .table {
     padding-left: 0px;
   }
 
@@ -216,6 +231,11 @@ main {
     font-size: 25px;
   }
 
+  table {
+    font-size: 18px;
+    padding-left: 0px;
+  }
+
   main {
     flex-direction: column;
     align-items: center;
@@ -227,10 +247,6 @@ main {
 
   .not-located {
     width: 640px;
-    padding-left: 0px;
-  }
-
-  .table {
     padding-left: 0px;
   }
 
@@ -248,6 +264,11 @@ main {
 
   h3 {
     font-size: 25px;
+  }
+
+  .table {
+    font-size: 18px;
+    padding-left: 0px;
   }
 
   main {
@@ -269,10 +290,6 @@ main {
     padding-left: 0px;
   }
 
-  .table {
-    padding-left: 0px;
-  }
-
   #map {
     width: 480px;
     height: 298px;
@@ -289,6 +306,11 @@ main {
     font-size: 25px;
   }
 
+  .table {
+    font-size: 18px;
+    padding-left: 0px;
+  }
+
   main {
     flex-direction: column;
     align-items: center;
@@ -300,10 +322,6 @@ main {
   
   .not-located {
     width: 320px;
-    padding-left: 0px;
-  }
-
-  .table {
     padding-left: 0px;
   }
 
@@ -323,6 +341,11 @@ main {
     font-size: 25px;
   }
 
+  .table {
+    font-size: 18px;
+    padding-left: 0px;
+  }
+
   main {
     flex-direction: column;
     align-items: center;
@@ -334,10 +357,6 @@ main {
   
   .not-located {
     width: 250px;
-    padding-left: 0px;
-  }
-
-  .table {
     padding-left: 0px;
   }
 
