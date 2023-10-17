@@ -127,7 +127,7 @@ main {
     font-size: 35px;
   }
 
-  table {
+  .table {
     font-size: 25px;
   }
 
@@ -150,7 +150,7 @@ main {
     font-size: 30px;
   }
 
-  table {
+  .table {
     font-size: 20px;
   }
 
@@ -173,7 +173,7 @@ main {
     font-size: 25px;
   }
 
-  table {
+  .table {
     font-size: 18px;
   }
 
@@ -231,7 +231,7 @@ main {
     font-size: 25px;
   }
 
-  table {
+  .table {
     font-size: 18px;
     padding-left: 0px;
   }
