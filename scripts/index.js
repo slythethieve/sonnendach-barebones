@@ -23,7 +23,7 @@ async function handleInput(str) {
     loadMapViewFromCoord(adressData)
     updatePageInfo(adressData, solarData)
   } else {
-    alert("No valid adress")
+    alert(`Es wurde keine gültige Adresse gefunden unter: ${str}`)
   }
 }
 
