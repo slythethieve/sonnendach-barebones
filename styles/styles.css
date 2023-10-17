@@ -1,0 +1,349 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  color: rgb(54, 52, 52);
+}
+
+body {
+  display: flex;
+  font-family: Helvetica, sans-serif;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-size: 50px;
+  color: #679289;
+  font-weight: 400;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+strong {
+  color: black;
+  font-size: 50px;
+}
+
+span {
+  font-size: 1.25em;
+  line-height: 1.5em;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: left;
+  background-color: #C5E7E2;
+  width: 100%;
+  height: 50px;
+}
+
+th {
+  text-align: left;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 2em 0 2em 0;
+  justify-content: center;
+  gap: 50px;
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: 700;
+  padding-left: 20px;
+}
+
+.banner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em 0 2em 0;
+  gap: 40px;
+  background-image: url(../images/liquid-cheese.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.house-image {
+  width: 256px;
+  height: 256px;
+}
+
+.search-box {
+  width: 700px;
+  height: 2em;
+  padding-left: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.not-located {
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  gap: 50px;
+  width: 825px;
+  padding-left: 50px;
+}
+
+.table {
+  display: none;
+  padding-left: 50px;
+}
+
+#map {
+  display: flex;
+  flex-shrink: 0;
+  width: 825px;
+  padding-right: 50px;
+  height: 514px;
+}
+
+
+@media screen and (max-width: 1700px) {
+  h2, strong {
+    font-size: 45px;
+  }
+
+  h3 {
+    font-size: 35px;
+  }
+
+  .not-located {
+    width: 775px;
+  }
+
+  #map {
+    width: 775px;
+    height: 481px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  h2, strong {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  .not-located {
+    width: 695px;
+  }
+
+  #map {
+    width: 695px;
+    height: 431px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  h2, strong {
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  .not-located {
+    width: 615px;
+  }
+
+  #map {
+    width: 615px;
+    height: 381px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  h2, strong {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .house-image {
+    width: 200px;
+    height: 200px;
+  }
+  .not-located {
+    width: 810px;
+    padding-left: 0px;
+  }
+
+  .table {
+    padding-left: 0px;
+  }
+
+  #map {
+    width: 810px;
+    height: 503px;
+    padding-right: 0px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  h2, strong {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-box {
+    width: 500px;
+  }
+
+  .not-located {
+    width: 640px;
+    padding-left: 0px;
+  }
+
+  .table {
+    padding-left: 0px;
+  }
+
+  #map {
+    width: 640px;
+    height: 397px;
+    padding-right: 0px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  h2, strong {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .house-image {
+    width: 128px;
+    height: 128px;
+  }
+
+  .search-box {
+    width: 300px;
+  }
+  
+  .not-located {
+    width: 480px;
+    padding-left: 0px;
+  }
+
+  .table {
+    padding-left: 0px;
+  }
+
+  #map {
+    width: 480px;
+    height: 298px;
+    padding-right: 0px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h2, strong {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-box {
+    width: 200px;
+  }
+  
+  .not-located {
+    width: 320px;
+    padding-left: 0px;
+  }
+
+  .table {
+    padding-left: 0px;
+  }
+
+  #map {
+    width: 320px;
+    height: 198px;
+    padding-right: 0px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  h2, strong {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-box {
+    width: 200px;
+  }
+  
+  .not-located {
+    width: 250px;
+    padding-left: 0px;
+  }
+
+  .table {
+    padding-left: 0px;
+  }
+
+  #map {
+    width: 250px;
+    height: 155px;
+    padding-right: 0px;
+  }
+}

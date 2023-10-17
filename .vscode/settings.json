@@ -1,0 +1,9 @@
+{
+    "liveServer.settings.root": "/",
+    "liveServer.settings.https": {
+        "enable": true,
+        "cert": "C:/Users/matte/localhost.pem",
+        "key": "C:/Users/matte/localhost.key",
+        "passphrase": "test"
+    }
+}

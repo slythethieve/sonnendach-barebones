@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/css/ol.css"
+    type="text/css">
+  <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/build/ol.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+  <script type="module" src="./scripts/index.js"></script>
+  <title> Sonnenach Barebones </title>
+</head>
+
+<body>
+  <header class="header">
+    <span class="title"> Sonnendach Barebones </span>
+  </header>
+  <div class="banner">
+    <img class="house-image" src="./images/img_home_solar.svg" alt="Picture of a house with solar panels on the roof.">
+    <h2 class="intro-text"> Wie viel <strong>Strom</strong> oder <strong>Wärme</strong> kann mein Dach produzieren?</h2>
+    <input class="search-box" type="text" placeholder="Suchen Sie Ihre Adresse.">
+  </div>
+  <main>
+    <div class="info">
+      <div class="not-located">
+        <h3> Noch nicht lokalisiert</h3>
+        <span> Bitte suchen Sie eine Adresse.</span>
+      </div>
+      <div class="table">
+        <table>
+          <tr>
+            <th>ID:</th>
+            <td id="id">-----------</td>
+          </tr>
+          <tr>
+            <th>Eignung:</th>
+            <td id="aptitude">-----------</td>
+          </tr>
+          <tr>
+            <th>Fläche:</th>
+            <td id="area">-----------</td>
+          </tr>
+          <tr>
+            <th>Gebäude ID:</th>
+            <td id="buildingId">-----------</td>
+          </tr>
+          <tr>
+            <th>Neigung:</th>
+            <td id="inclination">-----------</td>
+          </tr>
+          <tr>
+            <th>Ausrichtung:</th>
+            <td id="orientation">-----------</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div id="map"></div>
+  </main>
+
+
+  <footer>
+    <p class="author"> Autor: De Sabato Matteo </p>
+  </footer>
+</body>
+
+</html>
